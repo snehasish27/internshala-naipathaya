@@ -1,0 +1,97 @@
+        .top-margin{
+            padding-top:45px;
+        }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    #main_f{
+      background-color: #191818;
+      color: white;
+      padding: 15px;
+    }
+        footer{
+            background-color: aliceblue;
+        }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+        .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:100px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+        #data{
+            background-color:#f1f1f1;
+        }
+        #heading{
+            background-color:#191818;
+            color: white;
+            border-bottom:solid black 2px;
+        }
+        .shadow{
+            box-shadow: 10px 10px 2px #c9c3c3;
+        }
+        .notice{
+            padding:5px;
+            background-color:#fafafa;
+            border-left:6px solid #7f7f84;
+            margin-bottom:5px;
+            -webkit-box-shadow:0 5px 8px -6px rgba(0,0,0,0.2);
+            -moz-box-shadow:0 5px 8px -6px rgba(0,0,0,0.2);
+            box-shadow:0 5px 8px -6px rgba(0,0,0,0.2)
+        }
+.notice-sm{padding:10px;font-size:80%}
+        .notice-lg{padding:35px;font-size:large}
+        .notice-success{border-color:#80D651}
+        .notice-success>strong{color:#80D651}
+        .notice-info{border-color:#45ABCD}
+        .notice-info>strong{color:#45ABCD}
+        .notice-warning{border-color:#FEAF20}
+        .notice-warning>strong{color:#FEAF20}
+        .notice-danger{border-color:#d73814}
+        .whyus_icon{color:white;text-align:center;width:130px;height:130px;background:#00897B;border-radius:50%;margin:0 auto}
+        .whyus_icon span{font-size:70px;height:100%;line-height:130px;width:100%;
+            -webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s}
+        .single_whyus_top:hover .whyus_icon span{transform:scale(0.9)}
+        .single_whyus_top>h3{font-size:18px;font-weight:bold;text-align:center}
+        .single_whyus_top>p{font-size:14px;text-align:center}
+        .circle{
+            display:block;
+            width:150px;
+            height:150px;
+            margin:1em auto;
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center center;
+            -webkit-border-radius:99em;
+            -moz-border-radius:99em;
+            border-radius:99em;
+            border:5px solid #eee;
+            box-shadow:0 3px 2px rgba(0,0,0,0.3)}
